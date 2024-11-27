@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, html, #root, .App {
+  /*height: 100%;*/
+  margin: 0;
+  padding: 0;
+}
+
+.logged-in-content {
+  display: flex;
+  height: calc(100vh - 64px); /* Ajusta esto si la altura de tu Header es diferente */
+}
+
+.map-container {
+  flex-grow: 1;
+  height: 100%;
+  overflow: hidden;
+}
