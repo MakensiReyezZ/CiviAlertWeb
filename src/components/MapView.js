@@ -14,7 +14,7 @@ const MapView = () => {
   }, []);
   return (
     <div ref={mapContainerRef} style={{ width: '100%' }}>
-      <APIProvider apiKey="AIzaSyCaeZsZ_7dY3miX_DrkaAK1_gl2oS48k-8">
+      <APIProvider apiKey="pon tu apikey perro">
         <Map
           defaultZoom={13}
           defaultCenter={{ lat: -16.39889 , lng: -71.53500}}
